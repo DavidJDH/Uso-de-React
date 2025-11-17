@@ -13,6 +13,7 @@ export const MyRoutes = () => (
         <Route path="/Login" element={<Login/>}/>
         <Route path= "/UseEffectP" element={<UseEffectP/>}/>
         <Route path ="/ImagenesPages"  element = {<ImagenesPages/>}/>
+        <Route path ="/Login"  element = {<Login/>}/>
         <Route path = "*" element = {<Page404/>}/>
     
 

@@ -11,6 +11,10 @@ export const CardList =()=>{
         {
             title: "imagenes",
             to:"/ImagenesPages"
+        },
+        {
+            title: "Login",
+            to:"/Login"
         }
     ]
     return (
