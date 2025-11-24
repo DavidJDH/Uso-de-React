@@ -1,2 +1,50 @@
 @import "tailwindcss";
 
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+@theme {
+    --color-red01: #ea5f8e;
+    --color-red02: #e25b88;
+    --color-gray01: #dce0e3;
+    --color-gray02: #9a9fa7;
+    --color-gray03: #3d434b;
+    --color-gray04: #343a3f;
+    --color-gray05: #0000003b;
+    --color-gray06: #484f58;
+
+}
+
+.current {
+    @apply font-medium text-white border-b-2 border-red02;
+}
+
+.checkbox {
+    appearance:none;
+    width:19px;
+    height: 19px;
+    background-color: #484f58;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+.checkbox:checked {
+    background: color #343a3f;
+
+}
+
+.checkbox:checked::before {
+    content: "";
+    width: 17px;
+    height: 17px;
+    background-image: url(../public/check-svgrepo-com.svg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    display: block;
+    padding: 5px;
+
+}

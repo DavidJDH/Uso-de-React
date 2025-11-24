@@ -5,6 +5,14 @@ export const CardList =()=>{
 
     const temasTeoria = [
         {
+            title: "Login",
+            to:"/Login"
+        }, 
+        {
+            title: "Sign Up",
+            to:"/Singup"
+        },       
+        {
             title: "useEffect",
             to:"/UseEffectP"
         },
@@ -13,9 +21,10 @@ export const CardList =()=>{
             to:"/ImagenesPages"
         },
         {
-            title: "Login",
-            to:"/Login"
+            title:"To-Do-List",
+            to:"/TodoList"
         }
+
     ]
     return (
         <div className="flex flex-col gap-4">
